@@ -1,5 +1,10 @@
 function functest(animal) {
-    return animal + " is my favorite animal!"
+    if (animal == "Goat") {
+        return animal + " is my favorite animal!"
+    }
+    else {
+        return "Gross"
+    }
 }
 
 document.write(functest(prompt("Favorite Animal?")))
