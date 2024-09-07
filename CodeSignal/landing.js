@@ -1,1 +1,3 @@
-document.write("Welcome")
+document.write(
+    document.getElementById('fname').value
+)
