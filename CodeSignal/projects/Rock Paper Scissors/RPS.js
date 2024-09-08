@@ -1,11 +1,10 @@
 function getComputerChoice(choice) {
-    if(Math.random >= 0.66) {
+    if(choice >= 0.66) {
         return "Paper"
     }
-    elif(0.66 > Math.random > 0.33){
+    else if(choice >=0.33 && choice  <0.66){
         return "Rock"
     }
-    elif()
+    else return "Scissors"
 }
-
-getComputerChoice()
+document.write(getComputerChoice(.65))
