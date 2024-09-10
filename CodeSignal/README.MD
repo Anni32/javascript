@@ -1,1 +1,1 @@
-THIS REPOSITORY WAS CREATED IN RESPONSE TO THE WA STATE LNI ROLE CODESIGNAL ASSESSMENT
+This repository was ccreated in response to the WA STATE LNI role CodeSignal Assessment
