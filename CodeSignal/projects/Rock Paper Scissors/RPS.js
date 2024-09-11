@@ -7,4 +7,6 @@ function getComputerChoice(choice) {
     }
     else return "Scissors"
 }
+
+
 document.write(getComputerChoice(.65))
