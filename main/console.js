@@ -6,5 +6,3 @@ function functest(animal) {
         return "Gross"
     }
 }
-
-document.write(functest(prompt("Favorite Animal?")))
