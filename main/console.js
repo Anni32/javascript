@@ -6,3 +6,5 @@ function functest(animal) {
         return "Gross"
     }
 }
+
+document.write('Hello')
