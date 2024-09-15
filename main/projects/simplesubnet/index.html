@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Simple Subnet Calculator</title>
+    <meta name="description" content="A minimal example with the conditional version." />
+    <link
+      rel="stylesheet"
+      href="pico.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="container">
+      <hgroup>
+        <h1>Simple Subnet Calculator</h1>
+      </hgroup>
+      <div class="pico">
+        <nav>
+          <ul>
+            <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+            <li><a href="#" data-theme-switcher="light">Light</a></li>
+            <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ./ Header -->
+
+    <!-- Main -->
+    <main class="container">
+      <!-- Styled -->
+      <section class="pico.c">
+        <h2>Styled section</h2><br>
+        <p>Conditional Styling and here is some text describing the calculator</p>
+      </section>
+        <section class="input-container">
+        <form>
+          <input
+            type="text"
+            name="ipaddress"
+            placeholder="ex. : 192.168.0.1"
+            aria-label="IPV4 address"
+            required
+          />
+          <input
+            type="subnet"
+            name="subnet"
+            placeholder="ex. : 0, 16, 32"
+            aria-label="Notation"
+            autocomplete="email"
+            required
+          />
+        </form>
+        </section>
+        <br>
+      <button type="submit">Submit</button>
+      </section>
+      <!-- ./ Styled -->
+    </main>
+    <!-- Minimal theme switcher -->
+    <script src="js/minimal-theme-switcher.js"></script>
+    <br>
+  </body>
+</html>
