@@ -10,7 +10,7 @@ var createCounter = function(init) { //defines createCounter, which includes met
              return init
         },
         decrement: function(){
-            init-- //passwed value - 1
+            init-- //passed value - 1
              return init
         },
         reset: function(){
