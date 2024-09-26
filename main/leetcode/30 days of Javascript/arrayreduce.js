@@ -5,8 +5,13 @@
  * @return {number}
  */
 var reduce = function(nums, fn, init) {
-    new1 = 0 //initiates accumated total
-    for (let i = 0; i<nums.length; i++){ //iterates over array
-        new1 = fn(new1, nums[i]) //creates variable that uses the fn () to change items in array
-    }return new1+init // returns modified number + initial value to return total after adding in inital values
+    let new1 = init //assigns variable new1 value of init
+    for (let i = 0; i<nums.length; i++){
+        new1 = fn(new1, nums[i]); //sets new1 to be modified by reducer fn()
+    }
+    if (nums.length === 0){ //if the array is empty
+        return init //return initial value
+    }else{
+        return new1 //return function modified value
+    }
 }
